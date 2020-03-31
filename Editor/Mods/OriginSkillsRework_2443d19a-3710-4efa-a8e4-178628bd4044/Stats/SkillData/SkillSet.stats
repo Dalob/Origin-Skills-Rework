@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_Ifan" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Summon_SoulWolfOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_Lohse" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_MaddeningSongOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_RedPrince" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_DemonicStareOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_Sebille" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_BreakTheShacklesOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_Beast" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_SquallOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_Fane" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_TimeWarpOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Avatar_Generic" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_DomeOfProtectionOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_SoulWolfOSR_Giant" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_WolfBiteOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_SoulWolfOSR_Giant" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="MultiStrike_WolfVaultOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_SoulWolfFlightOSR" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_SoulWolfOSR_Giant" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_SoulWolfOSR_Giant_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_IncarnateChameleonSkin" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_SoulWolfOSR_Giant" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_SoulWolfOSR_Small" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_WolfBiteOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_SoulWolf_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_SoulWolfOSR_Small" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="MultiStrike_WolfVaultOSR" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_SoulWolfOSR_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_SoulWolfFlightOSR" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_SoulWolfOSR_Small" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

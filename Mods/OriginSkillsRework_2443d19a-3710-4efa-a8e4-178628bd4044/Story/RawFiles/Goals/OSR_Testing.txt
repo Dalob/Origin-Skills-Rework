@@ -1,0 +1,87 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+
+// IF
+// GameStarted(_, _)
+// THEN
+// NRD_LuaReset(1);
+
+// IF
+// GameStarted(_, _)
+// AND
+// DB_IsPlayer(_Char)
+// THEN
+// CharacterOverrideMaxSourcePoints(_Char, 3);
+// CharacterAddSourcePoints(_Char, 3);
+
+// IF
+// GameStarted(_,_)
+// AND
+// DB_IsPlayer(_Char)
+// AND
+// DB_BOO_OriginSkills(_Skill)
+// THEN
+// CharacterAddSkill(_Char, _Skill);
+
+// IF
+// GameStarted(_, _)
+// AND
+// DB_IsPlayer(_Char)
+// THEN
+// CharacterAddSkill(_Char, "Target_RangedInfusion");
+// CharacterAddSkill(_Char, "Target_PowerInfusion");
+// CharacterAddSkill(_Char, "Target_ShadowInfusion");
+// CharacterAddSkill(_Char, "Target_WarpInfusion");
+// CharacterLevelUpTo(_Char, 15);
+
+// IF
+// GameStarted(_, _)
+// AND
+// DB_IsPlayer(_Char)
+// AND
+// CharacterGetEquippedItem(_Char, "Amulet", (ITEMGUID)_Item)
+// THEN
+// CharacterUnequipItem(_Char, _Item);
+
+// IF
+// CharacterUsedSourcePoint(_Char)
+// THEN
+// CharacterAddSourcePoints(_Char, 3);
+
+// IF
+// TextEventSet("resetlua")
+// THEN
+// NRD_LuaReset(1);
+
+// IF
+// TextEventSet("source")
+// AND
+// DB_IsPlayer(_Char)
+// THEN
+// CharacterAddSourcePoints(_Char, 3);
+
+// IF
+// TextEventSet("remove")
+// AND
+// DB_IsPlayer(_Char)
+// AND
+// DB_OSR_Skills(_, _Original, _Replacement)
+// THEN
+// CharacterRemoveSkill(_Char, _Original);
+
+// IF
+// TextEventSet("addE")
+// AND
+// DB_IsPlayer(_Char)
+// AND
+// DB_BOO_OriginSkills(_Skill)
+// THEN
+// CharacterAddSkill(_Char, _Skill);
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__Start"

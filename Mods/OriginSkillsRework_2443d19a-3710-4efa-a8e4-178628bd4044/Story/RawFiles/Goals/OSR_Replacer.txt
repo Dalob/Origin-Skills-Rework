@@ -1,0 +1,171 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+GlobalSetFlag("OSR_BreakTheShackles");
+GlobalSetFlag("OSR_TimeWarp");
+GlobalSetFlag("OSR_DemonicStare");
+GlobalSetFlag("OSR_MaddeningSong");
+GlobalSetFlag("OSR_BlindingSquall");
+GlobalSetFlag("OSR_DomeOfProtection");
+GlobalSetFlag("OSR_SoulWolf");
+GlobalClearFlag("OSR_Initialised");
+
+// DB_OSR_Skills(_FlagName, _Vanilla, _Modded)
+DB_OSR_Skills("OSR_DemonicStare", "Target_DemonicStare", "Target_DemonicStareOSR");
+DB_OSR_Skills("OSR_TimeWarp", "Target_TimeWarp", "Shout_TimeWarpOSR");
+DB_OSR_Skills("OSR_MaddeningSong", "Target_MaddeningSong", "Shout_MaddeningSongOSR");
+DB_OSR_Skills("OSR_SoulWolf", "Summon_SoulWolf", "Summon_SoulWolfOSR");
+DB_OSR_Skills("OSR_BreakTheShackles", "Shout_BreakTheShackles", "Shout_BreakTheShacklesOSR");
+DB_OSR_Skills("OSR_DomeOfProtection", "Dome_CircleOfProtection", "Target_DomeOfProtectionOSR");
+DB_OSR_Skills("OSR_BlindingSquall", "Target_Squall", "Shout_SquallOSR");
+
+// Book of Origins support
+DB_BOO_OriginSkills("Target_DemonicStareOSR");
+DB_BOO_OriginSkills("Shout_TimeWarpOSR");
+DB_BOO_OriginSkills("Shout_MaddeningSongOSR");
+DB_BOO_OriginSkills("Summon_SoulWolfOSR");
+DB_BOO_OriginSkills("Shout_BreakTheShacklesOSR");
+DB_BOO_OriginSkills("Target_DomeOfProtectionOSR");
+DB_BOO_OriginSkills("Shout_SquallOSR");
+
+KBSECTION
+
+// If installed mid game default to all new skills
+
+IF
+SavegameLoaded(_, _, _, _)
+AND
+GlobalGetFlag("OSR_Initialised", 0)
+AND
+DB_IsPlayer(_Char)
+AND
+DB_OSR_Skills(_, _Vanilla, _OSR)
+AND
+CharacterHasSkill(_Char, _Vanilla, 1)
+THEN
+CharacterRemoveSkill(_Char, _Vanilla);
+CharacterAddSkill(_Char, _OSR, 0);
+GlobalSetFlag("OSR_Initialised");
+
+// If companion added to party
+
+IF
+CharacterJoinedParty(_Char)
+AND
+DB_OSR_Skills(_FlagName, _Vanilla, _OSR)
+AND
+GlobalGetFlag(_FlagName, 1)
+AND
+CharacterHasSkill(_Char, _Vanilla, 1)
+THEN
+CharacterRemoveSkill(_Char, _Vanilla);
+CharacterAddSkill(_Char, _OSR, 0);
+
+IF
+CharacterJoinedParty(_Char)
+AND
+DB_OSR_Skills(_FlagName, _Vanilla, _OSR)
+AND
+GlobalGetFlag(_FlagName, 0)
+AND
+CharacterHasSkill(_Char, _OSR, 1)
+THEN
+CharacterRemoveSkill(_Char, _OSR);
+CharacterAddSkill(_Char, _Vanilla, 0);
+
+// If skill added some other way
+
+IF
+SkillAdded(_Char, _Skill, _)
+AND
+DB_IsPlayer(_Char)
+AND
+DB_OSR_Skills(_FlagName, _Vanilla, _OSR)
+AND
+GlobalGetFlag(_FlagName, 1)
+AND
+CharacterHasSkill(_Char, _Vanilla, 1)
+THEN
+CharacterRemoveSkill(_Char, _Vanilla);
+CharacterAddSkill(_Char, _OSR, 0);
+
+IF
+SkillAdded(_Char, _Skill, _)
+AND
+DB_IsPlayer(_Char)
+AND
+DB_OSR_Skills(_FlagName, _Vanilla, _OSR)
+AND
+GlobalGetFlag(_FlagName, 0)
+AND
+CharacterHasSkill(_Char, _OSR, 1)
+THEN
+CharacterRemoveSkill(_Char, _OSR);
+CharacterAddSkill(_Char, _Vanilla, 0);
+
+// Give the characters the book
+
+IF
+GameStarted(_Region, _)
+AND
+IsGameLevel(_Region, 1)
+AND
+DB_IsPlayer(_Char)
+AND
+ItemTemplateIsInCharacterInventory(_Char, "BOOK_OSR_OriginSkillsRework_cf866d82-4883-4dbd-a49c-c249bf5b8304", 0)
+THEN
+ItemTemplateAddTo("BOOK_OSR_OriginSkillsRework_cf866d82-4883-4dbd-a49c-c249bf5b8304", _Char, 1);
+
+IF
+CharacterJoinedParty(_Char)
+AND
+DB_IsPlayer(_Char)
+AND
+ItemTemplateIsInCharacterInventory(_Char, "BOOK_OSR_OriginSkillsRework_cf866d82-4883-4dbd-a49c-c249bf5b8304", 0)
+THEN
+ItemTemplateAddTo("BOOK_OSR_OriginSkillsRework_cf866d82-4883-4dbd-a49c-c249bf5b8304", _Char, 1);
+
+// Using book
+
+IF
+CharacterUsedItem(_Char, _Item)
+AND
+DB_IsPlayer(_Char)
+AND
+GetTemplate(_Item, "BOOK_OSR_OriginSkillsRework_cf866d82-4883-4dbd-a49c-c249bf5b8304")
+AND
+QRY_SpeakerIsAvailable(_Char)
+THEN
+Proc_StartDialog(0, "OSR_OriginSkillsRework_Dialog", _Char);
+
+// Replacing skills for all players
+
+IF
+GlobalFlagSet(_FlagName)
+AND
+DB_IsPlayer(_Char)
+AND
+DB_OSR_Skills(_FlagName, _Vanilla, _OSR)
+AND
+CharacterHasSkill(_Char, _Vanilla, 1)
+THEN
+CharacterRemoveSkill(_Char, _Vanilla);
+CharacterAddSkill(_Char, _OSR, 0);
+
+IF
+GlobalFlagCleared(_FlagName)
+AND
+DB_IsPlayer(_Char)
+AND
+DB_OSR_Skills(_FlagName, _Vanilla, _OSR)
+AND
+CharacterHasSkill(_Char, _OSR, 1)
+THEN
+CharacterRemoveSkill(_Char, _OSR);
+CharacterAddSkill(_Char, _Vanilla, 0);
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__Start"

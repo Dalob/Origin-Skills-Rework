@@ -1,0 +1,130 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+
+// Demonic Stare
+
+IF
+CharacterStatusApplied((CHARACTERGUID)_Target, "DEMONIC_STARE", (CHARACTERGUID)_Source)
+AND
+OSR_GetArmorValues(_Target, _Armor, _MagicArmor)
+THEN
+OSR_SetArmorValues(_Target, 0.0, 0.0);
+DB_OSR_DemonicStare(_Source, _Target, _Armor, _MagicArmor);
+
+IF
+ObjectTurnEnded((CHARACTERGUID)_Source)
+AND
+DB_OSR_DemonicStare(_Source, _Target, _Armor, _MagicArmor)
+THEN
+OSR_SetArmorValues(_Target, _Armor, _MagicArmor);
+RemoveStatus(_Target, "DEMONIC_STARE");
+NOT DB_OSR_DemonicStare(_Source, _Target, _Armor, _MagicArmor);
+
+// Soul Wolf
+IF
+CharacterStatusApplied((CHARACTERGUID)_Summon, "SUMMONING", _)
+AND
+OSR_IsSoulWolf(_Summon)
+THEN
+ProcObjectTimer(_Summon, "SoulWolfDelay", 50);
+
+PROC
+ProcObjectTimerFinished((CHARACTERGUID)_Summon, "SoulWolfDelay") // Fails compilation without cast?
+THEN
+NRD_PlayerSetBaseAbility(_Summon, "RogueLore", 1);
+NRD_PlayerSetBaseTalent(_Summon, "QuickStep", 1);
+CharacterRemoveSkill(_Summon, "Target_SingleHandedAttack");
+CharacterAddCivilAbilityPoint(_Summon, 0);
+
+IF
+SkillAdded(_Summon, "Target_SingleHandedAttack", _)
+AND
+OSR_IsSoulWolf(_Summon)
+THEN
+CharacterRemoveSkill(_Summon, "Target_SingleHandedAttack");
+
+// Squall
+IF
+CharacterStatusApplied((CHARACTERGUID)_Target, "FORCE_BLIND", (CHARACTERGUID)_Source)
+THEN
+RemoveStatus(_Target, "FORCE_BLIND");
+ApplyStatus(_Target, "BLIND", 6.0, 1, _Source);
+
+IF
+CharacterStatusApplied((CHARACTERGUID)_Target, "FORCE_CHILLED", (CHARACTERGUID)_Source)
+THEN
+RemoveStatus(_Target, "FORCE_CHILLED");
+ApplyStatus(_Target, "CHILLED", 6.0, 1, _Source);
+
+IF
+CharacterStatusApplied((CHARACTERGUID)_Target, "SQUALL_PUSHBACK", (CHARACTERGUID)_Source)
+AND
+GetDistanceTo(_Target, _Source, _Distance)
+AND
+RealSubtract(6.0, _Distance, _DistanceToPush)
+AND
+Integer(_DistanceToPush, _DistanceToPushInt)
+THEN
+RemoveStatus(_Target, "SQUALL_PUSHBACK");
+OSR_Force(_Target, _Source, _DistanceToPushInt);
+
+PROC
+OSR_Force((CHARACTERGUID)_Target, (CHARACTERGUID)_Source, (INTEGER)_DistanceToPushInt)
+AND
+IntegertoString(_DistanceToPushInt, _D2P_String)
+AND
+StringConcatenate("Projectile_Force", _D2P_String, _SkillId)
+// AND
+// OSR_GetAverageLevelDamagePercentRange(_Source, 20.0, 10.0, _LevelScaledDamage)
+// AND
+// IntegerProduct(_LevelScaledDamage, _DistanceToPushInt, _Damage)
+THEN
+NRD_ProjectilePrepareLaunch();
+NRD_ProjectileSetString("SkillId", _SkillId);
+NRD_ProjectileSetInt("CasterLevel", 1);
+NRD_ProjectileSetGuidString("Caster", _Source);
+NRD_ProjectileSetGuidString("Source", _Source);
+NRD_ProjectileSetGuidString("Target", _Target);
+NRD_ProjectileSetGuidString("HitObject", _Target);
+NRD_ProjectileSetGuidString("HitObjectPosition", _Target); 
+NRD_ProjectileSetGuidString("SourcePosition", _Source);
+NRD_ProjectileSetGuidString("TargetPosition", _Target);
+// NRD_ProjectileAddDamage("Air", _Damage);
+// NRD_ProjectileAddDamage("Physical", _Damage);
+NRD_ProjectileLaunch();
+
+// Maddening Song
+IF
+CharacterStatusApplied((CHARACTERGUID)_Target, "FORCE_MADNESS", (CHARACTERGUID)_Source)
+AND
+OSR_IsAnArmorDepleted(_Target)
+THEN
+ApplyStatus(_Target, "MADNESS", 6.0, 1, _Source);
+
+IF
+CharacterStatusApplied((CHARACTERGUID)_Target, "FORCE_MADNESS", (CHARACTERGUID)_Source)
+THEN
+RemoveStatus(_Target, "FORCE_MADNESS");
+
+// Dome of Protection
+IF
+CharacterUsedSkillAtPosition(_Char, _X, _Y, _Z, "Target_DomeOfProtectionOSR", _, _)
+THEN
+DB_OSR_DomeOfProtection(_Char, _X, _Y, _Z);
+
+IF
+SkillCast(_Char, "Target_DomeOfProtectionOSR", _, _)
+AND
+DB_OSR_DomeOfProtection(_Char, _X, _Y, _Z)
+AND
+NRD_CreateDome(_Char, "Dome_DomeOfProtectionTerrainOSR", _X, _Y, _Z, _)
+THEN
+NOT DB_OSR_DomeOfProtection(_Char, _X, _Y, _Z);
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__Start"

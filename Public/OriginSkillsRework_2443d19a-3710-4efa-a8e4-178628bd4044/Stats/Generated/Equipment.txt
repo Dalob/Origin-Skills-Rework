@@ -1,0 +1,12 @@
+new equipment "Animals_SoulWolfSmall"
+add equipmentgroup
+add equipment entry "_Animals_SoulWolfSmall"
+add equipmentgroup
+add equipment entry "NoShield"
+
+new equipment "Animals_SoulWolfGiant"
+add equipmentgroup
+add equipment entry "_Animals_SoulWolfGiant"
+add equipmentgroup
+add equipment entry "NoShield"
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="92051e4d-6ecc-4be9-a36c-fe8f8899b32d">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DomeOfProtectionTerrainOSR" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AuraSelf" type="StringStatObjectFieldDefinition" value="PROTECTION_AURA" />
+        <field name="AuraAllies" type="StringStatObjectFieldDefinition" value="PROTECTION_AURA" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Summoning_CircleOfProtection" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DomeEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Protective_Dome_01" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

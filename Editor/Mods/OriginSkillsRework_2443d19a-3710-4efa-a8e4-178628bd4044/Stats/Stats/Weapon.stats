@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_SoulWolfSmall" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_NpcDaggers" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="WeaponType" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="InventoryTabs" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="80" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animals_SoulWolfGiant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animals_SoulWolfSmall" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="96" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

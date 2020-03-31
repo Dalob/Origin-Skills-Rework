@@ -1,0 +1,18 @@
+new entry "_Animals_SoulWolfSmall"
+type "Weapon"
+using "_NpcDaggers"
+data "Act part" "0"
+data "AttackAPCost" "2"
+data "DamageFromBase" "100"
+data "WeaponRange" "80"
+data "Durability" "10"
+data "WeaponType" "Knife"
+data "Flags" "Unbreakable"
+data "InventoryTab" "Hidden"
+
+new entry "_Animals_SoulWolfGiant"
+type "Weapon"
+using "_Animals_SoulWolfSmall"
+data "DamageFromBase" "120"
+data "WeaponRange" "96"
+

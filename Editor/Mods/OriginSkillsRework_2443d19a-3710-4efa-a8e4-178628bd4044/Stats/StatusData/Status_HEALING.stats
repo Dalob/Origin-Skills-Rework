@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="b02b3719-f0ee-4439-ac17-87079ea7453e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="PROTECTION_AURA" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="BringIntoCombat" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Dome of Protection" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Protected by a magical barrier infused with source. Physical and Magic Armour is restored at the start of each turn." />
+        <field name="DescriptionParams" type="StringStatObjectFieldDefinition" value="HealAmount" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Summoning_CircleOfProtection" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="34" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_ProtectionAura" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_ProtectionAura" />
+        <field name="HealingEvent" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="StatusEvent" />
+        <field name="HealStat" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="StatusHealType" />
+        <field name="HealType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="HealValueType" />
+        <field name="HealValue" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="SkipInitialEffect" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="PROTECTION_AURA_INITIAL" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="BringIntoCombat" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="HealingEvent" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="StatusEvent" />
+        <field name="HealStat" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="StatusHealType" />
+        <field name="HealType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="HealValueType" />
+        <field name="HealValue" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="SkipInitialEffect" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="PROTECTION_AURA_TARGET" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="BringIntoCombat" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_ProtectionAuraCaster" />
+        <field name="AuraRadius" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AuraFX" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Protective_Dome_01" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Dome of Protection" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Protecting all allies in range with a barrier infused with source. Restores Physical and Magic Armour at the start of each turn." />
+        <field name="DescriptionParams" type="StringStatObjectFieldDefinition" value="HealAmount" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Summoning_CircleOfProtection" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="34" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_ProtectionAura" />
+        <field name="AuraAllies" type="StringStatObjectFieldDefinition" value="PROTECTION_AURA" />
+        <field name="HealingEvent" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="StatusEvent" />
+        <field name="HealStat" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="StatusHealType" />
+        <field name="HealType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="HealValueType" />
+        <field name="HealValue" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="SkipInitialEffect" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
