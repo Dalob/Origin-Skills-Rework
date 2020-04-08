@@ -19,8 +19,14 @@ ObjectTurnEnded((CHARACTERGUID)_Source)
 AND
 DB_OSR_DemonicStare(_Source, _Target, _Armor, _MagicArmor)
 THEN
-OSR_SetArmorValues(_Target, _Armor, _MagicArmor);
 RemoveStatus(_Target, "DEMONIC_STARE");
+
+IF
+CharacterStatusRemoved((CHARACTERGUID)_Target, "DEMONIC_STARE", _)
+AND
+DB_OSR_DemonicStare(_Source, _Target, _Armor, _MagicArmor)
+THEN
+OSR_SetArmorValues(_Target, _Armor, _MagicArmor);
 NOT DB_OSR_DemonicStare(_Source, _Target, _Armor, _MagicArmor);
 
 // Soul Wolf

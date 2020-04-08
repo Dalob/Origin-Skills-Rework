@@ -1,56 +1,3 @@
--- -- From Norbyte's SkillMath.lua
-
--- local function GetVitalityBoostByLevel(level)
---     local extra = Ext.ExtraData
---     local expGrowth = extra.VitalityExponentialGrowth
---     local growth = expGrowth ^ level
-
---     if level >= extra.FirstVitalityLeapLevel then
---         growth = growth * extra.FirstVitalityLeapGrowth / expGrowth
---     end
-
---     if level >= extra.SecondVitalityLeapLevel then
---         growth = growth * extra.SecondVitalityLeapGrowth / expGrowth
---     end
-
---     if level >= extra.ThirdVitalityLeapLevel then
---         growth = growth * extra.ThirdVitalityLeapGrowth / expGrowth
---     end
-
---     if level >= extra.FourthVitalityLeapLevel then
---         growth = growth * extra.FourthVitalityLeapGrowth / expGrowth
---     end
-
---     local vit = level * extra.VitalityLinearGrowth + extra.VitalityStartingAmount * growth
---     return Ext.Round(vit / 5.0) * 5.0
--- end
-
--- local function GetLevelScaledDamage(level)
---     local vitalityBoost = GetVitalityBoostByLevel(level)
---     return vitalityBoost / (((level - 1) * Ext.ExtraData.VitalityToDamageRatioGrowth) + Ext.ExtraData.VitalityToDamageRatio)
--- end
-
--- local function GetAverageLevelDamage(level)
---     local scaled = GetLevelScaledDamage(level)
---     return ((level * Ext.ExtraData.ExpectedDamageBoostFromAttributePerLevel) + 1.0) * scaled
---         * ((level * Ext.ExtraData.ExpectedDamageBoostFromSkillAbilityPerLevel) + 1.0)
--- end
-
--- -- My stuff
-
--- local function GetAverageLevelDamagePercentRange(character, percent, range)
-
---     local damage = GetAverageLevelDamage(CharacterGetLevel(character)) * percent / 100.0
---     local rand = 1.0 + (Ext.Random(0, range) - range/2) * 0.01
-
---     local finalDamage = damage * rand
---     finalDamage = math.max(Ext.Round(finalDamage), 1)
-
---     return damage
-
--- end
--- Ext.NewQuery(GetAverageLevelDamagePercentRange, "OSR_GetAverageLevelDamagePercentRange", "[in](CHARACTERGUID)_Character, [in](REAL)_Percent, [in](REAL)_Range, [out](INTEGER)_Damage");
-
 local function IsSoulWolf(character)
 
     local name = NRD_CharacterGetStatString(character, "Name")
@@ -90,8 +37,20 @@ Ext.NewQuery(GetArmorValues, "OSR_GetArmorValues", "[in](CHARACTERGUID)_Characte
 
 local function SetArmorValues(target, armor, magicArmor)
 
-    NRD_CharacterSetStatInt(target, "CurrentArmor", armor)
-    NRD_CharacterSetStatInt(target, "CurrentMagicArmor", magicArmor)
+    local maxArmor = NRD_CharacterGetStatInt(target, "MaxArmor")
+    local maxMagicArmor = NRD_CharacterGetStatInt(target, "MaxMagicArmor")
+
+    if (maxArmor) then
+        CharacterSetArmorPercentage(target, armor / maxArmor * 100)
+    end
+
+    if (maxMagicArmor) then
+        CharacterSetMagicArmorPercentage(target, magicArmor / maxMagicArmor * 100)
+    end
+
+    -- Doesn't show the armour value being restored with text
+    -- NRD_CharacterSetStatInt(target, "CurrentArmor", armor)
+    -- NRD_CharacterSetStatInt(target, "CurrentMagicArmor", magicArmor)
 
 end
 Ext.NewCall(SetArmorValues, "OSR_SetArmorValues", "(CHARACTERGUID)_Target, (REAL)_Armor, (REAL)_MagicArmor");
