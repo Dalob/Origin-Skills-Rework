@@ -1,59 +1,59 @@
 <contentList>
-	<content contentuid="h8f6e08cbg399eg43f1gbbd4g6404974f1eee" Source="BOOK_OSR_OriginSkillsRework">A mysterious tome capable of changing how one&apos;s Origin skills behave.</content>
-	<content contentuid="hb6135dd4g87aeg41d6gabd6g915b15826bdc" Source="BOOK_OSR_OriginSkillsRework">Tome of Origins</content>
-	<content contentuid="h2588ce8bgd9abg4a99ga06fga29cc4ccd53c" Source="BOOK_OSR_OriginSkillsRework">Read</content>
-	<content contentuid="h4aa5eaa1ga08dg4024g91a5ge568261b6a00" Source="OSR_OriginSkillsRework_Dialog.lsj">[OSR] Summon Soul Wolf</content>
-	<content contentuid="h24b6e645g3de6g4973g9c9bgec837f78cb0d" Source="OSR_OriginSkillsRework_Dialog.lsj">[Vanilla] Summon Soul Wolf</content>
-	<content contentuid="hdbe53b3fgb8e7g4e31g90ddgf5f9561f7ebb" Source="OSR_OriginSkillsRework_Dialog.lsj">[OSR] Break The Shackles</content>
-	<content contentuid="h89022be6g447fg460agb494g13f71e94b502" Source="OSR_OriginSkillsRework_Dialog.lsj">[Vanilla] Demonic Stare</content>
-	<content contentuid="h3698cdf8ga720g4de7gaeaeg6af2d713fb48" Source="OSR_OriginSkillsRework_Dialog.lsj">[Vanilla] Break The Shackles</content>
-	<content contentuid="h54acadc8gbdf6g40f9g918fgd7e08f97a679" Source="OSR_OriginSkillsRework_Dialog.lsj">You no longer wish to alter the Origin skills.</content>
-	<content contentuid="hfc9ba156g586eg4000g9ddcg08a520ef7b8f" Source="OSR_OriginSkillsRework_Dialog.lsj">[OSR] Dome of Protection</content>
-	<content contentuid="h3e4417e3g65f1g4264g9fddgaa100e6221cb" Source="OSR_OriginSkillsRework_Dialog.lsj">[OSR] Blinding Squall</content>
-	<content contentuid="hb45fa089ge303g49f7g93acg315cdc1fd993" Source="OSR_OriginSkillsRework_Dialog.lsj">[OSR] Time Warp</content>
-	<content contentuid="h9050330egc9ebg47beg9ed2g70106a3d0557" Source="OSR_OriginSkillsRework_Dialog.lsj">[Vanilla] Blinding Squall</content>
-	<content contentuid="h2f4e0effg284bg4551g8519g3b7449033adf" Source="OSR_OriginSkillsRework_Dialog.lsj">Reading the tome has unveiled to you choices...</content>
-	<content contentuid="h6657a59agad2dg4723ga2acg670f6e1d8729" Source="OSR_OriginSkillsRework_Dialog.lsj">[OSR] Demonic Stare</content>
-	<content contentuid="h515e7d10gb623g4ec3gb52ag721a96115328" Source="OSR_OriginSkillsRework_Dialog.lsj">[OSR] Maddening Song</content>
-	<content contentuid="heaa8b2c9g0e21g466bg860fg09d891e5fef4" Source="OSR_OriginSkillsRework_Dialog.lsj">[Vanilla] Time Warp</content>
-	<content contentuid="h8e2ac272ga229g4678g9e2fg72c84404243b" Source="OSR_OriginSkillsRework_Dialog.lsj">[Vanilla] Maddening Song</content>
-	<content contentuid="h883b61d7g00f1g49efgb094g13055c36df83" Source="OSR_OriginSkillsRework_Dialog.lsj">[Vanilla] Dome of Protection</content>
-	<content contentuid="h353e2b84gba41g4c48g958ag07a0847db682" Source="Projectile_Description.lsb" Key="Projectile_SoulWolfFlightOSR_Description">Jump to the destination point.</content>
-	<content contentuid="h389551c4g3903g4ca4gabd3gd180f0ecb61c" Source="Projectile_DisplayName.lsb" Key="Projectile_SoulWolfFlightOSR_DisplayName">Leap</content>
-	<content contentuid="h5c24d6cbg11c0g4e91gbdffgdd20e964a8da" Source="Projectile_StatsDescription.lsb" Key="Projectile_SoulWolfFlightOSR_StatsDescription">Range: [1]</content>
-	<content contentuid="h39541d6dga90ag494bgb567g583b25f4349b" Source="Shout_Description.lsb" Key="Shout_BreakTheShacklesOSR_Description">Break free from nearly all negative statuses. Nearby allies will also receive this effect.&lt;br&gt;&lt;br&gt;Excludes Knocked Down, Frozen, Petrified, Stunned, Sleeping, Taunted, Chicken Form, Possessed, Charmed, and Terrified.</content>
-	<content contentuid="hfaedeff6ge6d6g436fga2f6g6a625d635bf6" Source="Shout_Description.lsb" Key="Shout_MaddeningSongOSR_Description">Sing, causing nearby enemies with depleted &lt;font color=#A8A8A8&gt;Physical&lt;/font&gt; or &lt;font color=#7F00FF&gt;Magic Armour&lt;/font&gt; to be driven Mad for 1 turn.&lt;br&gt;&lt;br&gt;Maddened characters will become hostile to all nearby, regardless of alignment.</content>
-	<content contentuid="hf1950b0dgc313g4296g8955g33ee1b3cb187" Source="Shout_Description.lsb" Key="Shout_SquallOSR_Description">Summon a harsh wind around yourself, knocking back all enemies and setting Blinded and Chilled for 1 turn. Closer enemies are knocked back further.</content>
-	<content contentuid="h1edd412fga122g4889ga14egab046282765b" Source="Shout_Description.lsb" Key="Shout_TimeWarpOSR_Description">Bend time to your favour in a sizeable radius around yourself, applying Time Warped to all combatants.&lt;br&gt;&lt;br&gt;Time Warped provides an empowered Haste to all allies, and an empowered slow to all enemies.</content>
-	<content contentuid="hcd24098dg693fg48c4g8bbcg79e0ac94b85f" Source="Shout_DisplayName.lsb" Key="Shout_BreakTheShacklesOSR_DisplayName">Break The Shackles</content>
-	<content contentuid="hf2ce5990g4a6eg4694g8169g8b3517794522" Source="Shout_DisplayName.lsb" Key="Shout_MaddeningSongOSR_DisplayName">Maddening Song</content>
-	<content contentuid="h2d7997f4g76b7g43d6g934fg17f7e9951a2e" Source="Shout_DisplayName.lsb" Key="Shout_SquallOSR_DisplayName">Blinding Squall</content>
-	<content contentuid="h2c692135g76c0g41bcgb94eg40b2a74747dc" Source="Shout_DisplayName.lsb" Key="Shout_TimeWarpOSR_DisplayName">Time Warp</content>
-	<content contentuid="he7b85d58gd40eg4aafg8560gddc8f81956fa" Source="Stats_Potions.lsb" Key="Stats_TimeHasted">Time Warped</content>
-	<content contentuid="h9b0180b0g76f1g4d34gbab7g77ccc171649d" Source="Stats_Potions.lsb" Key="Stats_TimeSlowed">Time Warped</content>
-	<content contentuid="h7533ee7ag0fc2g4916ga7e4g6bc578619e98" Source="Status_CONSUME_Description.lsb" Key="DEMONIC_STARE_Description">All &lt;font color=#A8A8A8&gt;Physical&lt;/font&gt; and &lt;font color=#7F00FF&gt;Magic Armour&lt;/font&gt; has been removed until the end of the turn.</content>
-	<content contentuid="h5904e95bg2b7cg4508gb0aaga545df383d9d" Source="Status_CONSUME_Description.lsb" Key="TIME_HASTED_Description">Character is moving quickly through time.</content>
-	<content contentuid="h776a64d0g8951g401egb867g88fa282ab95d" Source="Status_CONSUME_Description.lsb" Key="TIME_SLOWED_Description">Character is wading through slowed time.</content>
-	<content contentuid="hc43e2dd6gadd8g44d6ga172gd6d1a1cd66f0" Source="Status_CONSUME_DisplayName.lsb" Key="DEMONIC_STARE_DisplayName">Demonic Weakness</content>
-	<content contentuid="h685b9083gc29dg445agb4ebg90c36f46f9db" Source="Status_CONSUME_DisplayName.lsb" Key="FORCE_BLIND_DisplayName">Blinded</content>
-	<content contentuid="h1b8a6e89gab8bg42f9g8dd0g3d3ed4d71949" Source="Status_CONSUME_DisplayName.lsb" Key="FORCE_CHILLED_DisplayName">Chilled</content>
-	<content contentuid="h1e4dfcb4g4231g4f14g8b35g72c98fce4cdb" Source="Status_CONSUME_DisplayName.lsb" Key="FORCE_MADNESS_DisplayName">Mad</content>
-	<content contentuid="h05fbcce1gac33g4e03gb307g27b573610566" Source="Status_CONSUME_DisplayName.lsb" Key="TIME_HASTED_DisplayName">Time Warped</content>
-	<content contentuid="h0d6f0e88g32ddg4246ga206gf6670bb8192e" Source="Status_CONSUME_DisplayName.lsb" Key="TIME_SLOWED_DisplayName">Time Warped</content>
-	<content contentuid="h2cad1624g2c3dg4d58g8441g8b8bd91921bd" Source="Status_HEALING_Description.lsb" Key="PROTECTION_AURA_Description">Protected by a magical barrier infused with source. Physical and Magic Armour is restored at the start of each turn.</content>
-	<content contentuid="hb4cf114cg4b60g47b7ga20fgebcfc5df4693" Source="Status_HEALING_Description.lsb" Key="PROTECTION_AURA_INITIAL_Description">Protected by a magical barrier infused with source. Physical and Magic Armour is restored at the start of each turn.</content>
-	<content contentuid="hc594fd49gc24eg4e2fg8e03g1c1231ba9f59" Source="Status_HEALING_Description.lsb" Key="PROTECTION_AURA_TARGET_Description">Protecting all allies in range with a barrier infused with source. Restores Physical and Magic Armour at the start of each turn.</content>
-	<content contentuid="h2493cd32g6161g45a5gb915gca1736ec6bcd" Source="Status_HEALING_DisplayName.lsb" Key="PROTECTION_AURA_DisplayName">Dome of Protection</content>
-	<content contentuid="h2ca22f3ag7ac9g4a0dgb871gabe1b1bbb268" Source="Status_HEALING_DisplayName.lsb" Key="PROTECTION_AURA_INITIAL_DisplayName">Dome of Protection</content>
-	<content contentuid="h079356c3g8d36g4a25ga695gfc8960991d66" Source="Status_HEALING_DisplayName.lsb" Key="PROTECTION_AURA_TARGET_DisplayName">Dome of Protection</content>
-	<content contentuid="hf1ad44baga98fg430cg8d9eg63bbcc5f1cc4" Source="Summon_Description.lsb" Key="Summon_SoulWolfOSR_Description">Summon your trusty Soul Wolf.&lt;br&gt;&lt;br&gt;At 10 Summoning, the Soul Wolf increases in size and gains additional stats.</content>
-	<content contentuid="h0fb49604g08ecg45c1g911dgf63dce4efb66" Source="Summon_DisplayName.lsb" Key="Summon_SoulWolfOSR_DisplayName">Summon Soul Wolf</content>
-	<content contentuid="h83adfc81g152dg418eg8020gef838e288149" Source="Summons_SoulWolfGiantOSR">Greater Soul Wolf</content>
-	<content contentuid="haf0e9b75g665cg4322ga5a4gc4faa575b27c" Source="Summons_SoulWolfSmallOSR">Soul Wolf</content>
-	<content contentuid="h6b5713ecg11d5g4655ga52fg69377d3e09df" Source="Target_Description.lsb" Key="Target_DemonicStareOSR_Description">Gaze into the target&apos;s soul with demonic power, temporarily destroying their &lt;font color=#A8A8A8&gt;Physical&lt;/font&gt; and &lt;font color=#7F00FF&gt;Magic Armour&lt;/font&gt;.&lt;br&gt;&lt;br&gt;Their armour is restored at the end of turn.</content>
-	<content contentuid="hfd1ddff1gf9f2g4595ga338gad3903a19de9" Source="Target_Description.lsb" Key="Target_DomeOfProtectionOSR_Description">Create a protective barrier around a target ally or location for 3 turns.&lt;br&gt;&lt;br&gt;Allies standing within the barrier have their &lt;font color=#A8A8A8&gt;Physical&lt;/font&gt; and &lt;font color=#7F00FF&gt;Magic Armour&lt;/font&gt; restored each turn, and gain resistance to Physical and Magic attacks. </content>
-	<content contentuid="heb8d37c4g1e59g4730ga6a9g2c1f136c3e41" Source="Target_Description.lsb" Key="Target_WolfBiteOSR_Description">Sink your fangs into the enemy, dealing [1].</content>
-	<content contentuid="h76b08d7bge2bag490bga115g607ebf3b69cf" Source="Target_DisplayName.lsb" Key="Target_DemonicStareOSR_DisplayName">Demonic Stare</content>
-	<content contentuid="h654014d5g66e3g42e9gae92g51e4174901e2" Source="Target_DisplayName.lsb" Key="Target_DomeOfProtectionOSR_DisplayName">Dome of Protection</content>
-	<content contentuid="hb1bac10dg8275g4ec0g83b5gb92fe4e78cd8" Source="Target_DisplayName.lsb" Key="Target_WolfBiteOSR_DisplayName">Rending Bite</content>
+	<content contentuid="h8f6e08cbg399eg43f1gbbd4g6404974f1eee" Source="BOOK_OSR_OriginSkillsRework">オリジンスキルの効果を変更する不可思議な書物</content>
+	<content contentuid="hb6135dd4g87aeg41d6gabd6g915b15826bdc" Source="BOOK_OSR_OriginSkillsRework">根源の書</content>
+	<content contentuid="h2588ce8bgd9abg4a99ga06fga29cc4ccd53c" Source="BOOK_OSR_OriginSkillsRework">読む</content>
+	<content contentuid="h4aa5eaa1ga08dg4024g91a5ge568261b6a00" Source="OSR_OriginSkillsRework_Dialog.lsj">[強化] ソウルウルフ召喚</content>
+	<content contentuid="h24b6e645g3de6g4973g9c9bgec837f78cb0d" Source="OSR_OriginSkillsRework_Dialog.lsj">[通常] ソウルウルフ召喚</content>
+	<content contentuid="hdbe53b3fgb8e7g4e31g90ddgf5f9561f7ebb" Source="OSR_OriginSkillsRework_Dialog.lsj">[強化] 呪縛の破壊</content>
+	<content contentuid="h89022be6g447fg460agb494g13f71e94b502" Source="OSR_OriginSkillsRework_Dialog.lsj">[通常] 魔の視線</content>
+	<content contentuid="h3698cdf8ga720g4de7gaeaeg6af2d713fb48" Source="OSR_OriginSkillsRework_Dialog.lsj">[通常] 呪縛の破壊</content>
+	<content contentuid="h54acadc8gbdf6g40f9g918fgd7e08f97a679" Source="OSR_OriginSkillsRework_Dialog.lsj">オリジンスキルの効果を変更しない</content>
+	<content contentuid="hfc9ba156g586eg4000g9ddcg08a520ef7b8f" Source="OSR_OriginSkillsRework_Dialog.lsj">[強化] ドーム・オブ・プロテクション</content>
+	<content contentuid="h3e4417e3g65f1g4264g9fddgaa100e6221cb" Source="OSR_OriginSkillsRework_Dialog.lsj">[強化] 盲目の嵐</content>
+	<content contentuid="hb45fa089ge303g49f7g93acg315cdc1fd993" Source="OSR_OriginSkillsRework_Dialog.lsj">[強化] タイムワープ</content>
+	<content contentuid="h9050330egc9ebg47beg9ed2g70106a3d0557" Source="OSR_OriginSkillsRework_Dialog.lsj">[通常] 盲目の嵐</content>
+	<content contentuid="h2f4e0effg284bg4551g8519g3b7449033adf" Source="OSR_OriginSkillsRework_Dialog.lsj">書物の持つ力で、選ばれたオリジンスキルが真の効果を発揮する…</content>
+	<content contentuid="h6657a59agad2dg4723ga2acg670f6e1d8729" Source="OSR_OriginSkillsRework_Dialog.lsj">[強化] 魔の視線</content>
+	<content contentuid="h515e7d10gb623g4ec3gb52ag721a96115328" Source="OSR_OriginSkillsRework_Dialog.lsj">[強化] 狂乱の歌声</content>
+	<content contentuid="heaa8b2c9g0e21g466bg860fg09d891e5fef4" Source="OSR_OriginSkillsRework_Dialog.lsj">[通常] タイムワープ</content>
+	<content contentuid="h8e2ac272ga229g4678g9e2fg72c84404243b" Source="OSR_OriginSkillsRework_Dialog.lsj">[通常] 狂乱の歌声</content>
+	<content contentuid="h883b61d7g00f1g49efgb094g13055c36df83" Source="OSR_OriginSkillsRework_Dialog.lsj">[通常] ドーム・オブ・プロテクション</content>
+	<content contentuid="h353e2b84gba41g4c48g958ag07a0847db682" Source="Projectile_Description.lsb" Key="Projectile_SoulWolfFlightOSR_Description">指定した座標へジャンプします</content>
+	<content contentuid="h389551c4g3903g4ca4gabd3gd180f0ecb61c" Source="Projectile_DisplayName.lsb" Key="Projectile_SoulWolfFlightOSR_DisplayName">リープ</content>
+	<content contentuid="h5c24d6cbg11c0g4e91gbdffgdd20e964a8da" Source="Projectile_StatsDescription.lsb" Key="Projectile_SoulWolfFlightOSR_StatsDescription">射程: [1]</content>
+	<content contentuid="h39541d6dga90ag494bgb567g583b25f4349b" Source="Shout_Description.lsb" Key="Shout_BreakTheShacklesOSR_Description">次の状態異常を治癒する。沈黙、スロウ、骨折、冷寒、感電、悪病、窒息、退化、病気、感染病、ペインチェーン</content>
+	<content contentuid="hfaedeff6ge6d6g436fga2f6g6a625d635bf6" Source="Shout_Description.lsb" Key="Shout_MaddeningSongOSR_Description">歌って、物理または魔法の鎧が消耗した近くの敵を1ターン狂わせます。 狂ったキャラクターは、配置に関係なく、近くのすべての人に対して敵対的になります。</content>
+	<content contentuid="hf1950b0dgc313g4296g8955g33ee1b3cb187" Source="Shout_Description.lsb" Key="Shout_SquallOSR_Description">自分の周りに強風を召喚し、すべての敵をノックバックして、盲目と寒冷をの状態を1ターン与えます。 近くの敵はさらにノックバックされます。</content>
+	<content contentuid="h1edd412fga122g4889ga14egab046282765b" Source="Shout_Description.lsb" Key="Shout_TimeWarpOSR_Description">すべてのパーティーメンバーにタイムワープを適用して、自分の周りのかなり大きな範囲で好きなように時間を曲げます。 タイムワープは、すべての同盟国に強化された速攻を提供し、すべての敵に強化されたスローを提供します。</content>
+	<content contentuid="hcd24098dg693fg48c4g8bbcg79e0ac94b85f" Source="Shout_DisplayName.lsb" Key="Shout_BreakTheShacklesOSR_DisplayName"> 呪縛の破壊</content>
+	<content contentuid="hf2ce5990g4a6eg4694g8169g8b3517794522" Source="Shout_DisplayName.lsb" Key="Shout_MaddeningSongOSR_DisplayName">狂乱の歌声</content>
+	<content contentuid="h2d7997f4g76b7g43d6g934fg17f7e9951a2e" Source="Shout_DisplayName.lsb" Key="Shout_SquallOSR_DisplayName">盲目の嵐</content>
+	<content contentuid="h2c692135g76c0g41bcgb94eg40b2a74747dc" Source="Shout_DisplayName.lsb" Key="Shout_TimeWarpOSR_DisplayName" タイムワープ</content>
+	<content contentuid="he7b85d58gd40eg4aafg8560gddc8f81956fa" Source="Stats_Potions.lsb" Key="Stats_TimeHasted">タイムワープ</content>
+	<content contentuid="h9b0180b0g76f1g4d34gbab7g77ccc171649d" Source="Stats_Potions.lsb" Key="Stats_TimeSlowed">タイムワープ</content>
+	<content contentuid="h7533ee7ag0fc2g4916ga7e4g6bc578619e98" Source="Status_CONSUME_Description.lsb" Key="DEMONIC_STARE_Description">全ての&lt;font color=#A8A8A8&gt;物理装甲&lt;/font&gt;と&lt;font color=#7F00FF&gt;魔法装甲&lt;/font&gt;はターン終了時まで削除されます</content>
+	<content contentuid="h5904e95bg2b7cg4508gb0aaga545df383d9d" Source="Status_CONSUME_Description.lsb" Key="TIME_HASTED_Description">キャラクターは時間をかけて素早く動いています。</content>
+	<content contentuid="h776a64d0g8951g401egb867g88fa282ab95d" Source="Status_CONSUME_Description.lsb" Key="TIME_SLOWED_Description">キャラクターは遅い時間を歩いています。</content>
+	<content contentuid="hc43e2dd6gadd8g44d6ga172gd6d1a1cd66f0" Source="Status_CONSUME_DisplayName.lsb" Key="DEMONIC_STARE_DisplayName">悪魔の弱体化</content>
+	<content contentuid="h685b9083gc29dg445agb4ebg90c36f46f9db" Source="Status_CONSUME_DisplayName.lsb" Key="FORCE_BLIND_DisplayName">盲目</content>
+	<content contentuid="h1b8a6e89gab8bg42f9g8dd0g3d3ed4d71949" Source="Status_CONSUME_DisplayName.lsb" Key="FORCE_CHILLED_DisplayName">寒冷</content>
+	<content contentuid="h1e4dfcb4g4231g4f14g8b35g72c98fce4cdb" Source="Status_CONSUME_DisplayName.lsb" Key="FORCE_MADNESS_DisplayName">狂気</content>
+	<content contentuid="h05fbcce1gac33g4e03gb307g27b573610566" Source="Status_CONSUME_DisplayName.lsb" Key="TIME_HASTED_DisplayName">タイムワープ</content>
+	<content contentuid="h0d6f0e88g32ddg4246ga206gf6670bb8192e" Source="Status_CONSUME_DisplayName.lsb" Key="TIME_SLOWED_DisplayName">タイムワープ/content>
+	<content contentuid="h2cad1624g2c3dg4d58g8441g8b8bd91921bd" Source="Status_HEALING_Description.lsb" Key="PROTECTION_AURA_Description">ソースが注入された魔法のバリアによって保護されています。 バリア内に居るキャラクターの物理装甲と魔法装甲は、各ターンの開始時に復元されます。</content>
+	<content contentuid="hb4cf114cg4b60g47b7ga20fgebcfc5df4693" Source="Status_HEALING_Description.lsb" Key="PROTECTION_AURA_INITIAL_Description">ソースが注入された魔法のバリアによって保護されています。 物理装甲と魔法装甲は、各ターンの開始時に復元されます。</content>
+	<content contentuid="hc594fd49gc24eg4e2fg8e03g1c1231ba9f59" Source="Status_HEALING_Description.lsb" Key="PROTECTION_AURA_TARGET_Description">範囲内のすべての仲間を、ソースを注入したバリアで保護します。 各ターンの開始時に物理防具と魔法防具を復元します。</content>
+	<content contentuid="h2493cd32g6161g45a5gb915gca1736ec6bcd" Source="Status_HEALING_DisplayName.lsb" Key="PROTECTION_AURA_DisplayName">ドーム・オブ・プロテクション</content>
+	<content contentuid="h2ca22f3ag7ac9g4a0dgb871gabe1b1bbb268" Source="Status_HEALING_DisplayName.lsb" Key="PROTECTION_AURA_INITIAL_DisplayName">ドーム・オブ・プロテクション</content>
+	<content contentuid="h079356c3g8d36g4a25ga695gfc8960991d66" Source="Status_HEALING_DisplayName.lsb" Key="PROTECTION_AURA_TARGET_DisplayName">ドーム・オブ・プロテクション</content>
+	<content contentuid="hf1ad44baga98fg430cg8d9eg63bbcc5f1cc4" Source="Summon_Description.lsb" Key="Summon_SoulWolfOSR_Description">信頼できるソウルウルフを召喚してください。 召喚スキル10で、ソウルウルフはサイズが増し、追加のステータスを得ます。</content>
+	<content contentuid="h0fb49604g08ecg45c1g911dgf63dce4efb66" Source="Summon_DisplayName.lsb" Key="Summon_SoulWolfOSR_DisplayName">ソウルウルフ召喚</content>
+	<content contentuid="h83adfc81g152dg418eg8020gef838e288149" Source="Summons_SoulWolfGiantOSR">グレーター ソウルウルフ</content>
+	<content contentuid="haf0e9b75g665cg4322ga5a4gc4faa575b27c" Source="Summons_SoulWolfSmallOSR">ソウルウルフ</content>
+	<content contentuid="h6b5713ecg11d5g4655ga52fg69377d3e09df" Source="Target_Description.lsb" Key="Target_DemonicStareOSR_Description">悪魔の力でターゲットの魂を注視し、対象の &lt;font color=#A8A8A8&gt;物理装甲&lt;/font&gt; と &lt;font color=#7F00FF&gt;魔法装甲&lt;/font&gt;.&lt;br&gt;&lt;br&gt;を一時的に破壊します。破壊された装甲値はターン終了時に復元されます。</content>
+	<content contentuid="hfd1ddff1gf9f2g4595ga338gad3903a19de9" Source="Target_Description.lsb" Key="Target_DomeOfProtectionOSR_Description">対象の味方または場所の周りに3ターン、防護壁を作成します。&lt;br&gt;&lt;br&gt;バリア内に立っている同盟者は、 &lt;font color=#A8A8A8&gt;物理装甲&lt;/font&gt; と &lt;font color=#7F00FF&gt;魔法装甲&lt;/font&gt; が毎ターン回復し、物理と魔法の攻撃に対する抵抗力を獲得します。</content>
+	<content contentuid="heb8d37c4g1e59g4730ga6a9g2c1f136c3e41" Source="Target_Description.lsb" Key="Target_WolfBiteOSR_Description">牙を敵に沈め、[1]を処理します。</content>
+	<content contentuid="h76b08d7bge2bag490bga115g607ebf3b69cf" Source="Target_DisplayName.lsb" Key="Target_DemonicStareOSR_DisplayName">魔の視線</content>
+	<content contentuid="h654014d5g66e3g42e9gae92g51e4174901e2" Source="Target_DisplayName.lsb" Key="Target_DomeOfProtectionOSR_DisplayName">ドーム・オブ・プロテクション</content>
+	<content contentuid="hb1bac10dg8275g4ec0g83b5gb92fe4e78cd8" Source="Target_DisplayName.lsb" Key="Target_WolfBiteOSR_DisplayName">咬み傷/content>
 </contentList>
