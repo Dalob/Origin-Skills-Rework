@@ -28,7 +28,7 @@
 	<content contentuid="hcd24098dg693fg48c4g8bbcg79e0ac94b85f" Source="Shout_DisplayName.lsb" Key="Shout_BreakTheShacklesOSR_DisplayName"> 呪縛の破壊</content>
 	<content contentuid="hf2ce5990g4a6eg4694g8169g8b3517794522" Source="Shout_DisplayName.lsb" Key="Shout_MaddeningSongOSR_DisplayName">狂乱の歌声</content>
 	<content contentuid="h2d7997f4g76b7g43d6g934fg17f7e9951a2e" Source="Shout_DisplayName.lsb" Key="Shout_SquallOSR_DisplayName">盲目の嵐</content>
-	<content contentuid="h2c692135g76c0g41bcgb94eg40b2a74747dc" Source="Shout_DisplayName.lsb" Key="Shout_TimeWarpOSR_DisplayName" タイムワープ</content>
+	<content contentuid="h2c692135g76c0g41bcgb94eg40b2a74747dc" Source="Shout_DisplayName.lsb" Key="Shout_TimeWarpOSR_DisplayName"> タイムワープ</content>
 	<content contentuid="he7b85d58gd40eg4aafg8560gddc8f81956fa" Source="Stats_Potions.lsb" Key="Stats_TimeHasted">タイムワープ</content>
 	<content contentuid="h9b0180b0g76f1g4d34gbab7g77ccc171649d" Source="Stats_Potions.lsb" Key="Stats_TimeSlowed">タイムワープ</content>
 	<content contentuid="h7533ee7ag0fc2g4916ga7e4g6bc578619e98" Source="Status_CONSUME_Description.lsb" Key="DEMONIC_STARE_Description">全ての&lt;font color=#A8A8A8&gt;物理装甲&lt;/font&gt;と&lt;font color=#7F00FF&gt;魔法装甲&lt;/font&gt;はターン終了時まで削除されます</content>
@@ -39,7 +39,7 @@
 	<content contentuid="h1b8a6e89gab8bg42f9g8dd0g3d3ed4d71949" Source="Status_CONSUME_DisplayName.lsb" Key="FORCE_CHILLED_DisplayName">寒冷</content>
 	<content contentuid="h1e4dfcb4g4231g4f14g8b35g72c98fce4cdb" Source="Status_CONSUME_DisplayName.lsb" Key="FORCE_MADNESS_DisplayName">狂気</content>
 	<content contentuid="h05fbcce1gac33g4e03gb307g27b573610566" Source="Status_CONSUME_DisplayName.lsb" Key="TIME_HASTED_DisplayName">タイムワープ</content>
-	<content contentuid="h0d6f0e88g32ddg4246ga206gf6670bb8192e" Source="Status_CONSUME_DisplayName.lsb" Key="TIME_SLOWED_DisplayName">タイムワープ/content>
+	<content contentuid="h0d6f0e88g32ddg4246ga206gf6670bb8192e" Source="Status_CONSUME_DisplayName.lsb" Key="TIME_SLOWED_DisplayName">タイムワープ</content>
 	<content contentuid="h2cad1624g2c3dg4d58g8441g8b8bd91921bd" Source="Status_HEALING_Description.lsb" Key="PROTECTION_AURA_Description">ソースが注入された魔法のバリアによって保護されています。 バリア内に居るキャラクターの物理装甲と魔法装甲は、各ターンの開始時に復元されます。</content>
 	<content contentuid="hb4cf114cg4b60g47b7ga20fgebcfc5df4693" Source="Status_HEALING_Description.lsb" Key="PROTECTION_AURA_INITIAL_Description">ソースが注入された魔法のバリアによって保護されています。 物理装甲と魔法装甲は、各ターンの開始時に復元されます。</content>
 	<content contentuid="hc594fd49gc24eg4e2fg8e03g1c1231ba9f59" Source="Status_HEALING_Description.lsb" Key="PROTECTION_AURA_TARGET_Description">範囲内のすべての仲間を、ソースを注入したバリアで保護します。 各ターンの開始時に物理防具と魔法防具を復元します。</content>
@@ -55,5 +55,5 @@
 	<content contentuid="heb8d37c4g1e59g4730ga6a9g2c1f136c3e41" Source="Target_Description.lsb" Key="Target_WolfBiteOSR_Description">牙を敵に沈め、[1]を処理します。</content>
 	<content contentuid="h76b08d7bge2bag490bga115g607ebf3b69cf" Source="Target_DisplayName.lsb" Key="Target_DemonicStareOSR_DisplayName">魔の視線</content>
 	<content contentuid="h654014d5g66e3g42e9gae92g51e4174901e2" Source="Target_DisplayName.lsb" Key="Target_DomeOfProtectionOSR_DisplayName">ドーム・オブ・プロテクション</content>
-	<content contentuid="hb1bac10dg8275g4ec0g83b5gb92fe4e78cd8" Source="Target_DisplayName.lsb" Key="Target_WolfBiteOSR_DisplayName">咬み傷/content>
+	<content contentuid="hb1bac10dg8275g4ec0g83b5gb92fe4e78cd8" Source="Target_DisplayName.lsb" Key="Target_WolfBiteOSR_DisplayName">咬み傷</content>
 </contentList>
