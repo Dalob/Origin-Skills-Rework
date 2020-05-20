@@ -132,8 +132,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[OSR] Summon Soul Wolf",
-																	"handle": "h4aa5eaa1ga08dg4024g91a5ge568261b6a00"
+																	"value": "[Vanilla] Summon Soul Wolf",
+																	"handle": "h24b6e645g3de6g4973g9c9bgec837f78cb0d"
 																},
 																"stub": {
 																	"type": 19,
@@ -380,8 +380,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[Vanilla] Summon Soul Wolf",
-																	"handle": "h24b6e645g3de6g4973g9c9bgec837f78cb0d"
+																	"value": "[OSR] Summon Soul Wolf",
+																	"handle": "h4aa5eaa1ga08dg4024g91a5ge568261b6a00"
 																},
 																"stub": {
 																	"type": 19,
@@ -628,8 +628,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[OSR] Break The Shackles",
-																	"handle": "hdbe53b3fgb8e7g4e31g90ddgf5f9561f7ebb"
+																	"value": "[Vanilla] Break The Shackles",
+																	"handle": "h3698cdf8ga720g4de7gaeaeg6af2d713fb48"
 																},
 																"stub": {
 																	"type": 19,
@@ -876,8 +876,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[Vanilla] Demonic Stare",
-																	"handle": "h89022be6g447fg460agb494g13f71e94b502"
+																	"value": "[OSR] Demonic Stare",
+																	"handle": "h6657a59agad2dg4723ga2acg670f6e1d8729"
 																},
 																"stub": {
 																	"type": 19,
@@ -1124,8 +1124,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[Vanilla] Break The Shackles",
-																	"handle": "h3698cdf8ga720g4de7gaeaeg6af2d713fb48"
+																	"value": "[OSR] Break The Shackles",
+																	"handle": "hdbe53b3fgb8e7g4e31g90ddgf5f9561f7ebb"
 																},
 																"stub": {
 																	"type": 19,
@@ -1569,8 +1569,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[OSR] Dome of Protection",
-																	"handle": "hfc9ba156g586eg4000g9ddcg08a520ef7b8f"
+																	"value": "[Vanilla] Dome of Protection",
+																	"handle": "h883b61d7g00f1g49efgb094g13055c36df83"
 																},
 																"stub": {
 																	"type": 19,
@@ -1817,8 +1817,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[OSR] Blinding Squall",
-																	"handle": "h3e4417e3g65f1g4264g9fddgaa100e6221cb"
+																	"value": "[Vanilla] Blinding Squall",
+																	"handle": "h9050330egc9ebg47beg9ed2g70106a3d0557"
 																},
 																"stub": {
 																	"type": 19,
@@ -2065,8 +2065,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[OSR] Time Warp",
-																	"handle": "hb45fa089ge303g49f7g93acg315cdc1fd993"
+																	"value": "[Vanilla] Time Warp",
+																	"handle": "heaa8b2c9g0e21g466bg860fg09d891e5fef4"
 																},
 																"stub": {
 																	"type": 19,
@@ -2313,8 +2313,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[Vanilla] Blinding Squall",
-																	"handle": "h9050330egc9ebg47beg9ed2g70106a3d0557"
+																	"value": "[OSR] Blinding Squall",
+																	"handle": "h3e4417e3g65f1g4264g9fddgaa100e6221cb"
 																},
 																"stub": {
 																	"type": 19,
@@ -2955,8 +2955,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[OSR] Demonic Stare",
-																	"handle": "h6657a59agad2dg4723ga2acg670f6e1d8729"
+																	"value": "[Vanilla] Demonic Stare",
+																	"handle": "h89022be6g447fg460agb494g13f71e94b502"
 																},
 																"stub": {
 																	"type": 19,
@@ -3203,8 +3203,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[OSR] Maddening Song",
-																	"handle": "h515e7d10gb623g4ec3gb52ag721a96115328"
+																	"value": "[Vanilla] Maddening Song",
+																	"handle": "h8e2ac272ga229g4678g9e2fg72c84404243b"
 																},
 																"stub": {
 																	"type": 19,
@@ -3451,8 +3451,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[Vanilla] Time Warp",
-																	"handle": "heaa8b2c9g0e21g466bg860fg09d891e5fef4"
+																	"value": "[OSR] Time Warp",
+																	"handle": "hb45fa089ge303g49f7g93acg315cdc1fd993"
 																},
 																"stub": {
 																	"type": 19,
@@ -3699,8 +3699,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[Vanilla] Maddening Song",
-																	"handle": "h8e2ac272ga229g4678g9e2fg72c84404243b"
+																	"value": "[OSR] Maddening Song",
+																	"handle": "h515e7d10gb623g4ec3gb52ag721a96115328"
 																},
 																"stub": {
 																	"type": 19,
@@ -3947,8 +3947,8 @@
 															{
 																"TagText": {
 																	"type": 28,
-																	"value": "[Vanilla] Dome of Protection",
-																	"handle": "h883b61d7g00f1g49efgb094g13055c36df83"
+																	"value": "[OSR] Dome of Protection",
+																	"handle": "hfc9ba156g586eg4000g9ddcg08a520ef7b8f"
 																},
 																"stub": {
 																	"type": 19,
